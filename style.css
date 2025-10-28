@@ -1,1 +1,20 @@
+body {
+    background-color:rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(153, 18, 133);
+}
 
+.kartu-profil {
+width: 300px;
+    margin: 50px auto;/*50px jarak atas/bawah, auto menengahkan kiri/kanan */
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 15px;/* membuat sudut menjadi melengkung */
+    box-shadow:0 4px 8px rgba (0,0,0,0,1); /* efek bayangan */
+    text-align:center; /* menengahkan semua teks di dalam kartu */
+}
+
+.kartu-profil img {
+    width: 150px;
+    border-radius: 50%;
+}
